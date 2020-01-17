@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм» [![Build status][travis-image]][travis-url]
 
 * Студент: [Максим Кохтенко](https://up.htmlacademy.ru/javascript/19/user/10139).
-* Наставник: `Неизвестно`.
+* Наставник: [Виталий Комолаев](https://htmlacademy.ru/profile/id1274335).
 
 ---
 
