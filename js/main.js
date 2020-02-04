@@ -50,11 +50,15 @@ var fillTestData = function () {
     }
 
     function shuffleArray(array) {
-        for (var i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
+      for (var k = array.length - 1; k > 0; k--) {
+        var j = Math.floor(Math.random() * (k + 1));
+        var temp = array[k];
+        array[k] = array[j];
+        array[j] = temp;
+      }
+
+      return array;
+
     }
 
     shuffleArray(testPhotos);
